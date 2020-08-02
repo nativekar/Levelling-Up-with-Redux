@@ -4,7 +4,7 @@ import logo from "../logo.svg";
 
 function GamesList({ games }) {
   return (
-    <div>
+    <div className="games-list">
       {games &&
         games.map((game) => (
           <Card

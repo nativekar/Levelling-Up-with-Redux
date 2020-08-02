@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.games-list {
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 0 0 16px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: calc(25% - 25px);
+}
+
+.card img {
+  width: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+}
